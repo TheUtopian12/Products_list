@@ -42,7 +42,7 @@ export async function getProducts() {
         }
 
     } catch (error) {
-        console.error(error)
+        console.log(error)
     }
 }
 
