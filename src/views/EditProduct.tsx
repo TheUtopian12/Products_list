@@ -8,11 +8,7 @@ import {
   useLoaderData,
 } from "react-router-dom";
 import ErrorMsg from "../components/ErrorMsg";
-import {
-  addProduct,
-  getProductsById,
-  updateProduct,
-} from "../services/ProductService";
+import { getProductsById, updateProduct } from "../services/ProductService";
 import { Product } from "../types";
 
 export async function loader({ params }: LoaderFunctionArgs) {
